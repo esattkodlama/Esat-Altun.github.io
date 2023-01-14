@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.ackapaıcon{
+    width: 50px;
+    height: 50px;
+    font-size: 100%;
+    line-height: 100%;
+    float: right;
+    left: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    
+    
+
+}
+.üstpanel{
+    width: 100%;    
+    background-color: #9DD6DF;
+    font-size: 20px;
+    line-height: 55px;
+    
+    
+}
+.maintitle{
+    width: 300px;
+    margin-left: 20px;
+    color: #2c3639;
+    
+
+    
+}
+#app{
+    border: 2px solid #2c3639;
+    border-radius: 7px;
+    padding: 5px 10px 10px ;
+    background-color: white;
+}
+.btn01{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #ff0000;
+    color: white;
+}
+.btn02{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #0066ff;
+    color: white;
+}
+.btn03{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: #0066ff;
+    color: white;
+    float: left;
+    
+}
+.btn04{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: #0066ff;
+    color: white;
+    float: left;
+}
+.agerenk{
+    color: black;
+}

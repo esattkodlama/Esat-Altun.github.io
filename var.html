@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Vue :)</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link rel="stylesheet" href="css2/var.css">
+    <link rel="stylesheet" href="css2/all.css">
+</head>
+<body>
+    <div class="üstpanel">
+        <div class="maintitle">
+            <h1>Hello Vue</h1>
+        </div> 
+    </div>
+   
+    <div class="üstpanel" ></div>
+   <div id="app">
+        
+            <button class="ackapaıcon"  @click="ackapa" ><i class="fa-solid fa-power-off"></i></button>
+        
+        <div v-if="showbooks">
+            <p>{{ title }}</p>
+            <p>{{ author }}</p>
+            <p>Yaş:<span class="agerenk">{{ age }}</span>
+            <br>
+            <button class="btn03" v-on:click="age++"><i class="fa-solid fa-arrow-up"></i></button>
+            
+            <button class="btn04" v-on:click="age--"><i class="fa-solid fa-arrow-down"></i></button>
+            </p>
+            <br>
+            <p>Başlık ne olsun?</p>
+            <div  @click="changetitle1">Ahmet Esat'ın Projeleri:</div>
+            <div  @click="changetitle2">Vue.Js & Esat</div>
+            <br>
+            <button class="btn01" @click="hide"><i class="fa-solid fa-angle-up"></i></button>
+        
+        </div>
+        <div v-if="shbk">
+            <button class="btn02" @click="show"><i class="fa-solid fa-angle-down"></i></button>
+     
+        </div>
+       
+        
+        
+    </div>
+    <p></p>
+    
+   
+   <script src="var.js"></script>
+</body>
+</html>
